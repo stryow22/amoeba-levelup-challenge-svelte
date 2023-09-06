@@ -40,8 +40,8 @@
 		</div>
 
 		<!-- Nav Menu -->
-		<nav class="hidden lg:flex space-x-4">
-			<ul class="flex items-center gap-4">
+		<nav class="hidden lg:flex">
+			<ul class="flex gap-4">
 				<li class="relative" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 					<a href="/" class="text-gray-700 hover:text-gray-900"> Home </a>
 				</li>
@@ -61,7 +61,7 @@
 		</nav>
 
 		<!-- Search Bar -->
-		<div class="relative text-gray-600 lg:block hidden">
+		<div class="relative lg:-ml-60 text-gray-600">
 			<input
 				class="border-2 border-gray-300 bg-white h-10 pl-2 pr-8 rounded-lg text-sm focus:outline-none"
 				type="search"
