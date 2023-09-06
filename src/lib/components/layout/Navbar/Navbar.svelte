@@ -45,17 +45,17 @@
 				<li class="relative" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 					<a href="/" class="text-gray-700 hover:text-gray-900"> Home </a>
 				</li>
-				<li class="relative" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-					<a href="/about" class="text-gray-700 hover:text-gray-900"> Courses </a>
+				<li class="relative" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" class="text-gray-700 hover:text-gray-900"> Courses </a>
 				</li>
-				<li class="relative" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-					<a href="/about" class="text-gray-700 hover:text-gray-900"> Instructors </a>
+				<li class="relative" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" class="text-gray-700 hover:text-gray-900"> Instructors </a>
 				</li>
-				<li class="relative" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-					<a href="/about" class="text-gray-700 hover:text-gray-900"> Schedules </a>
+				<li class="relative" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" class="text-gray-700 hover:text-gray-900"> Schedules </a>
 				</li>
-				<li class="relative" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-					<a href="/about" class="text-gray-700 hover:text-gray-900"> Contact Us </a>
+				<li class="relative" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/" class="text-gray-700 hover:text-gray-900"> Contact Us </a>
 				</li>
 			</ul>
 		</nav>
@@ -102,17 +102,17 @@
 			<li class="mb-2" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
 				<a href="/" class="text-gray-700 hover:text-gray-900"> Home </a>
 			</li>
-			<li class="mb-2" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about" class="text-gray-700 hover:text-gray-900"> Courses </a>
+			<li class="mb-2" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/" class="text-gray-700 hover:text-gray-900"> Courses </a>
 			</li>
-			<li class="mb-2" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about" class="text-gray-700 hover:text-gray-900"> Instructors </a>
+			<li class="mb-2" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/" class="text-gray-700 hover:text-gray-900"> Instructors </a>
 			</li>
-			<li class="mb-2" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about" class="text-gray-700 hover:text-gray-900"> Schedules </a>
+			<li class="mb-2" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/" class="text-gray-700 hover:text-gray-900"> Schedules </a>
 			</li>
-			<li class="mb-2" aria-current={$page.url.pathname === '/about' ? 'page' : undefined}>
-				<a href="/about" class="text-gray-700 hover:text-gray-900"> Contact Us </a>
+			<li class="mb-2" aria-current={$page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/" class="text-gray-700 hover:text-gray-900"> Contact Us </a>
 			</li>
 		</ul>
 	</div>
