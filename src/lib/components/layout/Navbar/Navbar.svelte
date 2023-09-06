@@ -90,7 +90,7 @@
 		</div>
 
 		<div>
-			<a href="/dashboard">
+			<a href="/">
 				<img src={userAccount} alt="userAccount" />
 			</a>
 		</div>
