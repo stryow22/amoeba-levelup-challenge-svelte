@@ -66,6 +66,11 @@
 			<img id="hero" src={images[$currentIndex]} alt="" class="block w-full rounded-3xl my-4" />
 
 			{#if isMobile}
+				<p class="pb-4">
+					Lorem ipsum dolor sit at, consectetur adipielit. Facilisi fermentum, dignissim pharetra.
+					Aliquam Lorem ipsum dolor sit at <a href="/" class="font-bold">Read More...</a>
+				</p>
+
 				<!-- Tombol untuk perangkat mobile -->
 				<Button variant="outline-sec">Exams</Button>
 				<Button variant="secondary">Our Courses</Button>

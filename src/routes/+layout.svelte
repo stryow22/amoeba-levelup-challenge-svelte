@@ -1,4 +1,5 @@
 <script>
+	import Footer from '$lib/components/layout/Footer/Footer.svelte';
 	import Navbar from '../lib/components/layout/Navbar/Navbar.svelte';
 	import './styles.css';
 </script>
@@ -11,7 +12,7 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<Footer />
 	</footer>
 </div>
 
@@ -32,18 +33,6 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	} */
-
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
 
 	@media (min-width: 480px) {
 		footer {
