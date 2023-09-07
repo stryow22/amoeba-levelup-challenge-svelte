@@ -73,7 +73,7 @@
 			</div>
 		</div>
 
-		<div class=" p-4 flex justify-end">
+		<div class="p-4 flex justify-end">
 			<Button variant="secondary">Apply Now</Button>
 		</div>
 	</form>

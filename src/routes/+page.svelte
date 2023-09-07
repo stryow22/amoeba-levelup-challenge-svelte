@@ -1,6 +1,6 @@
 <script>
-	import EnrolForm from '$lib/components/Form/EnrolForm.svelte';
 	import EnrolSection from './home/EnrolSection.svelte';
+	import CTASection from './home/CTASection.svelte';
 	import HeroSection from './home/HeroSection.svelte';
 	import InstructorsSection from './home/InstructorsSection.svelte';
 	import OfferSection from './home/OfferSection.svelte';
@@ -16,8 +16,9 @@
 	<HeroSection />
 	<EnrolSection />
 	<OfferSection />
-	<TrendingSection/>
+	<TrendingSection />
 	<InstructorsSection />
+	<CTASection/>
 </section>
 
 <style>
