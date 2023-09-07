@@ -1,9 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	import { writable } from 'svelte/store'; // Import store
+	import { writable } from 'svelte/store';
 	import hero from '$lib/images/hero.png';
 	import hero2 from '$lib/images/hero-2.png';
-	import Button from '../Button/Button.svelte';
+	import Button from '../../lib/components/Button/Button.svelte';
 
 	let isMobile: boolean;
 

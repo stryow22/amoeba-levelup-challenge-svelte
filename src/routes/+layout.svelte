@@ -1,7 +1,19 @@
-<script>
+<script lang="ts">
 	import Footer from '$lib/components/layout/Footer/Footer.svelte';
 	import Navbar from '../lib/components/layout/Navbar/Navbar.svelte';
+	import { onMount } from 'svelte';
 	import './styles.css';
+
+	let isMobile: boolean;
+
+	function updateIsMobile() {
+		isMobile = window.innerWidth <= 768;
+	}
+
+	onMount(() => {
+		window.addEventListener('resize', updateIsMobile);
+		updateIsMobile();
+	});
 </script>
 
 <div class="app">
@@ -11,9 +23,13 @@
 		<slot />
 	</main>
 
-	<footer>
+	{#if isMobile}
+		<div hidden>
+			<Footer />
+		</div>
+	{:else}
 		<Footer />
-	</footer>
+	{/if}
 </div>
 
 <style>
@@ -21,22 +37,5 @@
 		display: flex;
 		flex-direction: column;
 		min-height: 100vh;
-	}
-
-	/* main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
-	} */
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
 	}
 </style>
