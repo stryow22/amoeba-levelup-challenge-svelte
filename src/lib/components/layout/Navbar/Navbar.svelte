@@ -65,7 +65,7 @@
 		<SearchBar />
 
 		<div>
-			<a href="/">
+			<a href="/dashboard">
 				<img src={userAccount} alt="userAccount" />
 			</a>
 		</div>
